@@ -1,0 +1,811 @@
+h1 {
+  color: green;
+}
+
+#header {
+  /* position: absolute; */
+  width: 95%;
+  height: 45px;
+  top: 0%;
+  background: #05628B;
+  margin: auto;
+}
+
+#title {
+  position: absolute;
+  width: 183px;
+  height: 19px;
+  left: 629px;
+  top: auto;
+
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 16px;
+  line-height: 19px;
+  /* identical to box height */
+
+  text-align: center;
+
+  color: #FFFFFF;
+}
+
+.middleBtn:hover {
+  opacity: 0.8;
+}
+
+.accountNameStatus {
+  position: absolute;
+  width: 174px;
+  height: 19px;
+  left: 1216px;
+  /* top: 13px; */
+  top: auto;
+
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 16px;
+  line-height: 19px;
+  /* identical to box height */
+
+  text-align: right;
+
+  color: #FFFFFF;
+ }
+
+.submittedDealsText {
+  position: absolute;
+  /* width: 190px; */
+  height: 26px;
+  left: 320px;
+  top: 107px;
+
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: 300;
+  font-size: 22px;
+  line-height: 26px;
+  /* identical to box height */
+
+  text-transform: uppercase;
+
+  color: #000000;
+ }
+
+.merchantNameP1 {
+  position: absolute;
+  width: 115px;
+  height: 19px;
+  left: 334px;
+  top: 169px;
+
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 16px;
+  line-height: 19px;
+  /* identical to box height */
+
+  /* text-align: left; */
+  color: #646464;
+ }
+
+.dateSubmitted {
+  position: absolute;
+  width: 111px;
+  height: 19px;
+  left: 664px;
+  top: 169px;
+
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 16px;
+  line-height: 19px;
+  /* identical to box height */
+
+  text-align: center;
+
+  color: #646464;
+ }
+
+.dealStatus {
+  position: absolute;
+  width: 46px;
+  height: 19px;
+  left: 1063px;
+  top: 169px;
+
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 16px;
+  line-height: 19px;
+  /* identical to box height */
+
+  text-align: right;
+
+  color: #646464;
+}
+
+.box {
+  position: absolute;
+  width: 800px;
+  height: 263px;
+  left: 320px;
+  top: 210px;
+
+  border: 1px solid #D2D2D2;
+  box-sizing: border-box;
+  border-radius: 5px;
+}
+
+.vectorArt {
+  position: absolute;
+  width: 72px;
+  height: 72px;
+  left: 355px;
+  top: 80px;
+
+  background: #05628B;
+}
+
+.buttonInfo {
+  position: absolute;
+  width: 190px;
+  height: 19px;
+  left: 297px;
+  top: 159px;
+
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: 300;
+  font-size: 16px;
+  line-height: 19px;
+  /* identical to box height */
+
+  text-align: right;
+
+  color: #000000;
+}
+
+.submitNewDealBtn {
+  position: absolute;
+  width: 186px;
+  height: 51px;
+  left: 320px;
+  top: 480px;
+
+  background: #05628B;
+  border-radius: 5px;
+
+}
+
+.submitNewDealBtn:hover {
+  background-color: #067aac;
+}
+
+.submitNewDealText {
+  position: absolute;
+  width: 133px;
+  height: 26px;
+  left: 45px;
+  top: -2px;
+
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: 600;
+  font-size: 16px;
+  line-height: 22px;
+
+  color: #ffffff;
+}
+
+.submitNewDealImg {
+  position: absolute;
+  width: 20px;
+  height: 19px;
+  left: 10px;
+  top: 15px;
+
+  background: rgb(255, 255, 255, 0.0);
+}
+
+.backBtn{
+  /* position: absolute;
+  width: 25px;
+  height: 25px;
+  left: 369.68px;
+  top: 86px;
+
+  background: #D2D2D2;
+  transform: rotate(45deg); */
+  position: absolute;
+  top: 100px;
+  left: 300px;
+}
+
+.backBtn {
+  position: absolute;
+  width: 25px;
+  height: 25px;
+  left: 369.68px;
+  top: 86px;
+  border-radius: 25px;
+  background: #D2D2D2;
+  /* transform: rotate(45deg); */
+}
+.backBtn:hover {
+  background-color: #999999
+}
+
+.backBtnDesign {
+  /* position: absolute;
+  width: 12.5px;
+  height: 12.41px;
+  left: 380px;
+  top: 100px;
+
+  background: #fff;
+  transform: rotate(135deg); */
+  position: absolute;
+  top: 8%;
+  left: 15%;
+}
+
+.merchantInfo {
+  position: absolute;
+  /* width: 135px; */
+  height: 26px;
+  left: 364px;
+  top: 134px;
+
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: 300;
+  font-size: 22px;
+  line-height: 26px;
+  /* identical to box height */
+
+
+  color: #000000;
+}
+
+.merchantInfobox {
+  position: absolute;
+  width: 774px;
+  height: 419px;
+  left: 362px;
+  top: 195px;
+
+  background: #F7F7F7;
+  border-radius: 5px;
+}
+
+.merchantName {
+  position: absolute;
+  left: 3%;
+  /* right: 79.93%; */
+  top: 0%;
+  bottom: 75%;
+
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: 300;
+  font-size: 16px;
+  line-height: 19px;
+  /* identical to box height */
+
+
+  color: #382007;
+}
+
+.merchantNameInputField {
+  position: absolute;
+  left: 1.5%;
+  /* right: 0%; */
+  top: 42px;
+  bottom: 80%;
+  width: 600px;
+
+  background: #FFFFFF;
+  border: 1px solid #E5E5E5;
+  box-sizing: border-box;
+  border-radius: 5px;
+}
+
+.merchantLegalName {
+  position: absolute;
+  left: 3%;
+  /* right: 72.96%; */
+  top: 20%;
+  bottom: 75%;
+
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: 300;
+  font-size: 16px;
+  line-height: 19px;
+  /* identical to box height */
+
+
+  color: #382007;
+}
+
+.merchantLegalNameinputField {
+  position: absolute;
+  left: 1.5%;
+  /* right: 0%; */
+  top: 125px;
+  bottom: 60.2%;
+  width: 600px;
+
+  background: #FFFFFF;
+  border: 1px solid #E5E5E5;
+  box-sizing: border-box;
+  border-radius: 5px;
+}
+
+.amountRequested {
+  position: absolute;
+  left: 3%;
+  /* right: 0%; */
+  width: 45%;
+  top: 40%;
+  bottom: 74.67%;
+
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: 300;
+  font-size: 16px;
+  line-height: 19px;
+  /* identical to box height */
+
+
+  color: #382007;
+}
+
+.amountRequestedInputField {
+  position: absolute;
+  left: 1.5%;
+  /* right: 0%; */
+  top: 51%;
+  bottom: 39%;
+  width: 600px;
+
+  background: #FFFFFF;
+  border: 1px solid #E5E5E5;
+  box-sizing: border-box;
+  border-radius: 5px;
+}
+
+.averageBankAccountBalance {
+  position: absolute;
+  left: 3%;
+  /* right: 0%; */
+  top: 61%;
+  bottom: 74.67%;
+  width: 45%;
+
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: 300;
+  font-size: 16px;
+  line-height: 19px;
+  /* identical to box height */
+
+
+  color: #382007;
+}
+
+.averageBankAccountBalanceInputField {
+  position: absolute;
+  left: 1.5%;
+  /* right: 0%; */
+  top: 71.5%;
+  bottom: 18.5%;
+  width: 600px;
+
+  background: #FFFFFF;
+  border: 1px solid #E5E5E5;
+  box-sizing: border-box;
+  border-radius: 5px;
+}
+
+/* ::-webkit-input-placeholder { */
+::placeholder {
+  /* position: absolute; */
+  left: 5.89%;
+  /* right: 82.65%; */
+  /* top: 53.95%; */
+  /* bottom: 21.05%; */
+
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: 300;
+  font-size: 13px;
+  line-height: 19px;
+  /* identical to box height */
+  /* text-align: justify; */
+
+  color: #382007;
+}
+
+.documents {
+  position: absolute;
+  width: 112px;
+  height: 26px;
+  left: 368px;
+  top: 636px;
+
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: 300;
+  font-size: 22px;
+  line-height: 26px;
+  /* identical to box height */
+
+
+  color: #000000;
+}
+
+.documentsBox {
+  position: absolute;
+  width: 774px;
+  height: 571px;
+  left: 368px;
+  top: 700px;
+
+  background: #F7F7F7;
+  border-radius: 5px;
+}
+
+.merchantAppBox {
+  position: absolute;
+  left: 3%;
+  right: 55%;
+  top: 3%;
+  bottom: 80%;
+
+  background: #FFFFFF;
+  border: 1px solid #E5E5E5;
+  border-radius: 5px;
+}
+
+.documenTitle {
+  position: absolute;
+  left: 5.97%;
+  right: 23.01%;
+  top: 1%;
+  bottom: 61.36%;
+
+  font-family: Open Sans;
+  font-style: normal;
+  font-weight: 600;
+  font-size: 14px;
+  line-height: 19px;
+
+  color: #000000;
+}
+
+.arrowUp {
+  position: absolute;
+  left: 8.9%;
+  right: 86.48%;
+  top: 54%;
+  bottom: 25%;
+
+  /* background: #05628B; */
+}
+
+ .circle {
+  position: absolute;
+  left: 5.77%;
+  right: 83.61%;
+  top: 45.45%;
+  bottom: 14.77%;
+
+  /* background: #05628B; */
+}
+
+.merchantAppInstructions {
+  position: absolute;
+  left: 23%;
+  right: 20.48%;
+  top: 45%;
+  bottom: 39%;
+  width: 70%;
+
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 12px;
+  line-height: 14px;
+
+  color: #000000;
+}
+
+.statement1 {
+  position: absolute;
+  left: 3%;
+  right: 55%;
+  top: 25%;
+  bottom: 58%;
+
+  background: #FFFFFF;
+  border: 1px solid #E5E5E5;
+  border-radius: 5px;
+}
+
+.statement2 {
+  position: absolute;
+  left: 3%;
+  right: 55%;
+  top: 47.5%;
+  bottom: 35.5%;
+
+  background: #FFFFFF;
+  border: 1px solid #E5E5E5;
+  border-radius: 5px;
+}
+
+.statement3 {
+  position: absolute;
+  left: 3%;
+  right: 55%;
+  top: 70%;
+  bottom: 13%;
+
+  background: #FFFFFF;
+  border: 1px solid #E5E5E5;
+  border-radius: 5px;
+}
+
+.statementToDate {
+  position: absolute;
+  left: 55%;
+  right: 3%;
+  top: 3%;
+  bottom: 80%;
+
+  background: #FFFFFF;
+  border: 1px solid #E5E5E5;
+  border-radius: 5px;
+}
+
+.stips {
+  position: absolute;
+  left: 55%;
+  right: 3%;
+  top: 25%;
+  bottom: 58%;
+
+  background: #FFFFFF;
+  border: 1px solid #E5E5E5;
+  border-radius: 5px;
+}
+
+.statement4 {
+  position: absolute;
+  left: 55%;
+  right: 3%;
+  top: 47.5%;
+  bottom: 35.5%;
+
+  background: #FFFFFF;
+  border: 1px solid #E5E5E5;
+  border-radius: 5px;
+}
+
+.statement5 {
+  position: absolute;
+  left: 55%;
+  right: 3%;
+  top: 70%;
+  bottom: 13%;
+
+  background: #FFFFFF;
+  border: 1px solid #E5E5E5;
+  border-radius: 5px;
+}
+
+.outerBtn {
+  position: absolute;
+  width: 176px;
+  height: 35px;
+  left: 367px;
+  top: 1285px;
+
+  background: #05628B;
+  border-radius: 5px;
+  padding-bottom: 20px;
+}
+
+.outerBtn:hover {
+  background-color: #067aac;
+}
+
+.innerBtn {
+  position: absolute;
+  width: 110px;
+  height: 20px;
+  left: 17%;
+  top: -5%;
+
+  /* font-family: Roboto;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 12px;
+  line-height: 14px; */
+
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 20px;
+  line-height: 23px;
+  text-align: center;
+
+  color: #E5E5E5;
+}
+
+.x {
+  position: absolute;
+  left: 70%;
+  right: 11.72%;
+  top: 55%;
+  bottom: 19%;
+
+  /* background: #FF0000; */
+  /* transform: matrix(0.71, -0.66, 0.76, 0.71, 0, 0); */
+}
+
+.viewPdf {
+  position: absolute;
+  left: 15%;
+  right: 20.48%;
+  top: 45%;
+  bottom: 39%;
+  width: 70%;
+
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 12px;
+  line-height: 14px;
+
+  color: #000000;
+}
+
+.submittedDeal1 {
+  position: absolute;
+  width: 800px;
+  height: 52.6px;
+  /* left: 320px; */
+  left: 0%;
+  /* top: 244px; */
+  top: 0%;
+
+  border: 1px solid #D2D2D2;
+  box-sizing: border-box;
+
+  /* background-color: red; */
+}
+
+.submittedDeal2 {
+  position: absolute;
+  width: 800px;
+  height: 52.6px;
+  /* left: 320px; */
+  left: 0%;
+  /* top: 244px; */
+  top: 20%;
+
+  border: 1px solid #D2D2D2;
+  box-sizing: border-box;
+
+  /* background-color: blue; */
+}
+
+.submittedDeal3 {
+  position: absolute;
+  width: 800px;
+  height: 52.6px;
+  /* left: 320px; */
+  left: 0%;
+  /* top: 244px; */
+  top: 40%;
+
+  border: 1px solid #D2D2D2;
+  box-sizing: border-box;
+
+  /* background-color: green; */
+}
+
+.submittedDeal4 {
+  position: absolute;
+  width: 800px;
+  height: 52px;
+  /* left: 320px; */
+  left: 0%;
+  /* top: 244px; */
+  top: 60%;
+
+  border: 1px solid #D2D2D2;
+  box-sizing: border-box;
+
+  /* background-color: yellow; */
+}
+
+.submittedDeal5 {
+  position: absolute;
+  width: 800px;
+  /* height: 47px; */
+  height: 52px;
+  /* left: 320px; */
+  left: 0%;
+  /* top: 71%; */
+  bottom: 0%;
+
+  border: 1px solid #D2D2D2;
+  box-sizing: border-box;
+
+  /* background-color: black; */
+}
+
+.businessName {
+  position: absolute;
+  /* width: 20%; */
+  height: 19px;
+  left: 3%;
+  top: 3%;
+
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: 300;
+  font-size: 16px;
+  line-height: 19px;
+  /* identical to box height */
+
+  text-align: right;
+
+  color: #000000;
+}
+
+.submissionDate {
+  position: absolute;
+  /* width: 141px; */
+  height: 19px;
+  left: 42%;
+  top: 3%;
+
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: 300;
+  font-size: 16px;
+  line-height: 19px;
+  /* identical to box height */
+
+  text-align: right;
+
+  color: #000000;
+
+}
+
+.status {
+  position: absolute;
+  /* width: 57px; */
+  height: 19px;
+  left: 92%;
+  top: 3%;
+
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: 300;
+  font-size: 16px;
+  line-height: 19px;
+  /* identical to box height */
+
+
+  color: #000000;
+}
