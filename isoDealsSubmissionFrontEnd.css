@@ -75,7 +75,7 @@ h1 {
 
 .merchantNameP1 {
   position: absolute;
-  width: 115px;
+/*   width: 115px; */
   height: 19px;
   left: 334px;
   top: 169px;
@@ -93,7 +93,7 @@ h1 {
 
 .dateSubmitted {
   position: absolute;
-  width: 111px;
+/*   width: 111px; */
   height: 19px;
   left: 664px;
   top: 169px;
@@ -112,7 +112,7 @@ h1 {
 
 .dealStatus {
   position: absolute;
-  width: 46px;
+/*   width: 46px; */
   height: 19px;
   left: 1063px;
   top: 169px;
@@ -153,7 +153,7 @@ h1 {
 
 .buttonInfo {
   position: absolute;
-  width: 190px;
+/*   width: 190px; */
   height: 19px;
   left: 297px;
   top: 159px;
@@ -188,7 +188,7 @@ h1 {
 
 .submitNewDealText {
   position: absolute;
-  width: 133px;
+/*   width: 133px; */
   height: 26px;
   left: 45px;
   top: -2px;
