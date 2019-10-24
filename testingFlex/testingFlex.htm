@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <link rel="stylesheet" href="testingFlex.css" />
+    <link
+      href="https://fonts.googleapis.com/css?family=Roboto&display=swap"
+      rel="stylesheet"
+    />
+    <script type="text/javascript" src="isoDealsSubmissionFrontEnd.js"></script>
+    <meta charset="utf-8" />
+    <title></title>
+
+    <script src="http://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+    <script>
+      $(function() {
+        $("#headerFile").load("header.html");
+      });
+    </script>
+  </head>
+  <body>
+    <div id="headerFile"></div>
+
+  <div class="container">
+    <p class="submittedDealsText">submitted deals</p>
+
+    <div class="dealInfo">
+      <p class="merchantNameP1">Merchant Name</p>
+      <p class="dateSubmitted">Date Submitted</p>
+      <p class="dealStatus">Status</p>
+    </div>
+
+    <div class="box">
+      <div class="middleBtn" onclick="submitNewDealMiddleBtn()">
+        <img
+          class="vectorArt"
+          src="https://i.ibb.co/mz3TyMN/Vector.jpg"
+          alt=""
+        />
+      </div>
+      <p class="buttonInfo">Click here to submit a deal</p>
+    </div>
+
+    <div class="btnWrapper">
+      <div class="submitNewDealBtn" onclick="submitNewDeal()">
+        <img
+          class="submitNewDealImg"
+          src="https://i.ibb.co/Zxdxs9L/Vector-1.png"
+        />
+        <p class="submitNewDealText">Submit new deal</p>
+      </div>
+    </div>
+  </div>
+
+  </body>
+</html>

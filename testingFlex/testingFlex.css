@@ -1,0 +1,121 @@
+/* body {
+  background-color: green;
+} */
+
+.container {
+  display: flex;
+  flex-direction: column;
+  height: 100vh;
+  justify-content: center;
+  align-items: center;
+  /* justify-content: space-around; */
+  /* margin: 0 auto; */
+  /* justify-content: space-between; */
+  /* margin: auto; */
+}
+
+.submittedDealsText {
+  /* display: flex; */
+  min-width: 800px;
+  margin-left: 10%;
+  margin-right: 10%;
+  margin-bottom: 0.3%;
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: 300;
+  font-size: 22px;
+  /* line-height: 26px; */
+  text-transform: uppercase;
+  color: #000000;
+}
+
+.dealInfo {
+  display: flex;
+  flex-direction: row;
+  margin-left: 10%;
+  margin-right: 10%;
+  margin-bottom: -0.3%;
+  justify-content: space-between;
+
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 16px;
+  line-height: 19px;
+  color: #646464;
+  max-width: 770px;
+  min-width: 770px;
+}
+
+.box {
+  /* display: flex; */
+  flex-wrap: wrap;
+  border: 1px solid #D2D2D2;
+  box-sizing: border-box;
+  border-radius: 5px;
+  height: 263px;
+
+  max-width: 800px;
+  min-width: 800px;
+
+  margin-left: 10%;
+  margin-right: 10%;
+}
+
+.middleBtn {
+  display: flex;
+  /* flex-wrap: wrap; */
+  /* text-align: center; */
+  /* justify-content: center; */
+  justify-content: space-around;
+  /* flex-basis: 100%; */
+  margin-top: 80px;
+}
+
+.vectorArt:hover {
+  opacity: 0.8;
+}
+
+.buttonInfo {
+  display: flex;
+  margin-top: 17px;
+  justify-content: center;
+  flex-basis: 100%;
+}
+
+.submitNewDealBtn {
+  width: 186px;
+  height: 51px;
+
+  background: #05628B;
+  border-radius: 5px;
+  display: inline-flex;
+}
+
+.submitNewDealBtn:hover {
+  background-color: #067aac;
+}
+
+.btnWrapper{
+  margin-left: 10%;
+  margin-right: 10%;
+  margin-top: 0.5%;
+  min-width: 800px;
+}
+
+.submitNewDealText {
+  margin-left: 9%;
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: 600;
+  /* font-size: 16px;
+  line-height: 22px; */
+  color: #ffffff;
+}
+
+.submitNewDealImg {
+  margin-left: 7%;
+  background: rgb(255, 255, 255, 0.0);
+  max-height: 40%;
+  margin-top: 9%;
+}
